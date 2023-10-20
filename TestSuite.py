@@ -7,7 +7,7 @@ while True:
     #Blink the LED 5 times with on/off intervals of 500ms
     for i in range (0,5):
         GPIO.output(11,1)
-        time.sleep(0,5)
+        time.sleep(0.5)
         GPIO.output(11,0)
         time.sleep(0.5)
 
