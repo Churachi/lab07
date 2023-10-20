@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
+GPIO.setup(11, GPIO.OUT)
 
 while True:
     #Blink the LED 5 times with on/off intervals of 500ms
