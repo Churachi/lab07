@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 import Adafruit_GPIO.SPI as SPI
-import Adafruit.MCP3008
+import Adafruit_MCP3008
 
 # using physical pin 11 to blink an LED
 GPIO.setmode(GPIO.BOARD)
